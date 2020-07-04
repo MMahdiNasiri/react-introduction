@@ -1,0 +1,3 @@
+export const ADDINGHEAD = 'ADDINGHEAD';
+export const CHANGETOFALSE = 'CHANGETOFALSE';
+export const CHANGETOTRUE = 'CHANGETOTRUE';

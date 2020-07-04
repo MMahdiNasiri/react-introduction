@@ -1,0 +1,14 @@
+.imglogo{
+    max-width: 200px;
+    height: auto;
+    position: fixed;
+    margin-left: 94%;
+    margin-top: 30%;
+    z-index: 9999;
+    transition-duration: 1s;
+}
+@media screen and (max-width: 700px){
+  .imglogo{
+    display: none;
+  }
+}

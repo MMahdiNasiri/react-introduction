@@ -1,0 +1,31 @@
+.personal{
+    width: 250px;
+    border: 2px solid black;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+    margin: 10px 50px 40px 0;
+}
+.personal p{
+    padding: 0 15px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1em;
+}
+.myimg{
+    width: 100%;
+    object-fit: cover;
+    /* hyphens: auto; */
+    /* border: 2px solid #8D6969; */
+    border-radius: 2%;
+    border-image-outset: 10px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .personal{
+      margin: auto;
+      float: none;
+      clear: both;
+    }
+  }
+  

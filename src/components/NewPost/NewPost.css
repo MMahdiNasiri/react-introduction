@@ -1,0 +1,28 @@
+.all{
+    width: 97%;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid grey;
+    box-shadow: 5px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+label, input{
+    margin: 7px;
+}
+
+button{
+    margin: 15px;
+    width: 100px;
+    height: auto;
+    background-color: #EEE0E0;
+    cursor: pointer;
+    box-shadow: 3px 3px #B19797;
+}
+
+button:active{
+    transform: translateY(1px);
+    transform: translateX(1px);
+}

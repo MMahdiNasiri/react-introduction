@@ -1,0 +1,16 @@
+.content {
+    margin-top: 300px;
+    height: auto;
+    position: absolute;
+    width: 99%;
+    z-index: -9999;
+  }
+
+  @media screen and (max-width: 700px) {
+    .content {
+      margin-left: 0;
+    }
+  }
+  
+  
+  

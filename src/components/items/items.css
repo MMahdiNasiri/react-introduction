@@ -1,0 +1,16 @@
+.items{
+    position: relative;
+    border: solid 4px white;
+    margin-top: -60px;
+}
+
+.items > h2{
+  margin-top: 130px;
+}
+
+
+@media screen and (min-width: 700px) {
+    .items{
+      margin-left: 5%;
+    }
+  }

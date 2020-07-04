@@ -1,0 +1,11 @@
+article{
+    border: 2px solid #A0650C;
+    width: 200px;
+    float: left;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: static;
+}

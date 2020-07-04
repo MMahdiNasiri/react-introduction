@@ -1,0 +1,81 @@
+.header {
+    padding: 10px 0;
+    text-align: center;
+    /* background: #1abc9c; */
+    /* background-image: linear-gradient(to right, #00ffcc, #1abc9c, #33cccc ); */
+    /* background-image: linear-gradient(to right, #0D2325, #396D63, #1D6D6D ); */
+    background-image: url('../../assets/image/wood2.jpg');
+    background-size: inherit;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    position: fixed;
+    height: 280px;
+    transition: 1s;
+}
+
+
+.head{
+    clear: both;
+    padding-top: 25px;
+    display: none;
+}
+.showHead{
+    display: block !important;
+}
+
+
+
+
+#p1{
+    text-decoration: underline;
+    float: left;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    animation: animate 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    grid-area: myname;
+    clear: left;
+    width: 40%;
+    margin:20px;
+    text-align: left;
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+} 
+#right{
+    float: right;
+    /* font-size: 1em; */
+    clear: right;
+    width: 40%;
+    margin: 15px;
+    text-align: right;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .header{
+        position: absolute;
+    }
+    #p1, #right{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+  }
+  

@@ -1,0 +1,14 @@
+.introduction{
+    overflow: auto;
+    border-bottom: 2px solid rgba(84, 84, 112, 0.13);
+    /* border: solid 2px black; */
+    margin-top: -10%;
+    margin-bottom: 10px;
+    position: static;
+}
+
+.introduction h2{
+    margin-top: 12%;
+    margin-left: 5%;
+    /* border: solid 2px blue; */
+}
